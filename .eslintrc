@@ -5,7 +5,8 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb"
+        "airbnb",
+        "plugin:prettier/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -28,6 +29,12 @@
             }
         ],
         "react/react-in-jsx-scope": "off",
-        "linebreak-style": 0
+        "linebreak-style": 0,
+        "prettier/prettier": ["error", {
+            "semi": true,
+            "singleQuote": true,
+            "parser": "flow",
+            "endOfLine":"auto"
+        }]
     }
 }
