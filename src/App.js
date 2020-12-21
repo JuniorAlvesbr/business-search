@@ -1,5 +1,14 @@
+import HeaderMain from './components/HeaderMain';
+import LogoMain from './components/LogoMain';
+import IconSearch from './components/IconSearch';
+
 function App() {
-  return <h1>Busca Negocios</h1>;
+  return (
+    <HeaderMain>
+      <LogoMain />
+      <IconSearch />
+    </HeaderMain>
+  );
 }
 
 export default App;
