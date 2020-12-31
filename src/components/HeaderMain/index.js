@@ -7,7 +7,7 @@ const HeaderMain = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 16px 24px;
+  padding: var(--gap-small) var(--gap-small) 24px;
 
   & > ${LogoMain}, & > ${IconSearch} {
     width: 24px;
