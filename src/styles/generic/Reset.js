@@ -49,6 +49,9 @@ const Reset = createGlobalStyle`
         border-collapse: collapse;
         border-spacing: 0;
     }
+    input, button, textarea {
+        font-family: 'Comfortaa', sans-serif;
+    }
 `;
 
 export default Reset;

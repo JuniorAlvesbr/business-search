@@ -13,7 +13,6 @@ export const ServiceFilterStyle = styled.nav`
 `;
 
 export const Label = styled.p`
-  font-family: 'Comfortaa', sans-serif;
   font-size: 20px;
   color: white;
 `;

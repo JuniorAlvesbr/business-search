@@ -4,7 +4,6 @@ const ButtonFixed = styled.button`
     position: fixed;
     bottom: 0;
     background-color: #f25a70;
-    font-family: 'Comfortaa', sans-serif;
     font-size: 20px;
     color: #fffcee;
     text-transform: uppercase;
