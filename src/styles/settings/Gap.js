@@ -5,6 +5,7 @@ const Gap = createGlobalStyle`
         --gap-very-smaller: 5px;
         --gap-smaller: 10px;
         --gap-small: 16px;
+        --gap-medium: 30px;
     }
 `;
 

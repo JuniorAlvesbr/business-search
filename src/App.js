@@ -3,6 +3,8 @@ import LogoMain from './components/LogoMain';
 import IconSearch from './components/IconSearch';
 import ServiceFilter from './components/ServiceFilter';
 import ButtonFixed from './components/ButtonFixed';
+import ServiceWrapper from './components/ServiceWrapper';
+import CardService from './components/CardService';
 
 function App() {
   return (
@@ -13,6 +15,14 @@ function App() {
       </HeaderMain>
 
       <ServiceFilter />
+
+      <ServiceWrapper>
+        <CardService />
+        <CardService />
+        <CardService />
+        <CardService />
+      </ServiceWrapper>
+
       <ButtonFixed>Insira o seu Negócio</ButtonFixed>
     </>
   );
