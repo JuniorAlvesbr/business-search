@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import photo from '../../assets/images/coffee.svg';
-import { Item, StarStyle } from '../Stars/style';
+import { StarStyle } from '../Stars/style';
 
 export const Figure = styled.figure`
     display: flex;
