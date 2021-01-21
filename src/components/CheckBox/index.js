@@ -1,10 +1,10 @@
 import { CheckBoxStyle, Content } from './styles';
 
-function CheckBox({ id }) {
+function CheckBox({ id, label }) {
     return (
         <>
             <CheckBoxStyle id={id} />
-            <Content htmlFor={id}>Alimentação</Content>
+            <Content htmlFor={id}>{label}</Content>
         </>
     )
 }
