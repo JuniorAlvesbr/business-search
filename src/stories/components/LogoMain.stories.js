@@ -2,7 +2,10 @@ import LogoMain from '../../components/LogoMain';
 
 export default {
     title: 'Components/LogoMain',
-    component: LogoMain
+    component: LogoMain,
+    parameters: {
+        layout: 'centered'
+    }
 }
 
 export const Default = () => <LogoMain />
