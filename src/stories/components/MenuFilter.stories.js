@@ -5,4 +5,4 @@ export default {
     components: MenuFilter
 }
 
-export const Default = () => <MenuFilter />
+export const Default = () => <MenuFilter active={true} />
