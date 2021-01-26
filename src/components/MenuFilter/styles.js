@@ -9,6 +9,8 @@ const MenuFilterStyle = styled.menu`
     position: absolute;
     left: 0;
     right: 0;
+    z-index: 100;
+    transition: transform 200ms ease-in-out;
 
     & > ${CheckBox}:not(:last-child) {
         margin-bottom: var(--gap-medium);
