@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import IconMenu from '../IconMenu';
+import IconClose from '../IconClose';
 
 export const ServiceFilterStyle = styled.nav`
   display: flex;
@@ -10,6 +11,13 @@ export const ServiceFilterStyle = styled.nav`
 
   & > ${IconMenu} {
     margin-right: var(--gap-small);
+    display: ${({ active }) => active ? 'none' : 'block'};
+  }
+
+  & > ${IconClose} {
+    margin-right: var(--gap-small);
+    display: ${({ active }) => active ? 'block' : 'none'};
+    width: 24px;
   }
 `;
 
