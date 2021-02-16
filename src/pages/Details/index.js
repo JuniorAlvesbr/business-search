@@ -1,13 +1,12 @@
 import HeaderMain from "../../components/HeaderMain";
-import LogoMain from '../../components/LogoMain';
-import IconSearch from "../../components/IconSearch";
+import IconArrow from "../../components/IconArrow";
 
 function Details() {
     return (
-        <HeaderMain>
-            <LogoMain />
-            <IconSearch />
-        </HeaderMain>
+        <>
+            <HeaderMain />
+            <IconArrow />
+        </>
     )
 }
 
