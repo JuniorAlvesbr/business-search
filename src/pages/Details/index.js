@@ -1,11 +1,11 @@
 import HeaderMain from "../../components/HeaderMain";
-import IconArrow from "../../components/IconArrow";
+import BackAction from "../../components/BackAction";
 
 function Details() {
     return (
         <>
             <HeaderMain />
-            <IconArrow />
+            <BackAction />
         </>
     )
 }
