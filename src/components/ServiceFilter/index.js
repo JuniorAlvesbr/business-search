@@ -4,7 +4,7 @@ import IconMenu from '../IconMenu';
 import MenuFilter from '../MenuFilter';
 import IconClose from '../IconClose';
 
-function ServiceFilter() {
+function ServiceFilter({ label, items }) {
   const [activeMenu, setActiveMenu] = useState(false);
 
   function toggleMenu() {
@@ -16,9 +16,9 @@ function ServiceFilter() {
       <ServiceFilterStyle active={activeMenu} onClick={toggleMenu}>
         <IconMenu />
         <IconClose />
-        <Label>Guia de Serviços</Label>
+        <Label>{label}</Label>
       </ServiceFilterStyle>
-      <MenuFilter active={activeMenu} />
+      <MenuFilter active={activeMenu} items={items} />
     </>
   );
 }
