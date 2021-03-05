@@ -3,7 +3,6 @@ import LogoMain from '../LogoMain';
 import IconSearch from '../IconSearch';
 
 const HeaderMainStyle = styled.header`
-  background-color: #3c5268;
   display: flex;
   justify-content: space-between;
   align-items: center;

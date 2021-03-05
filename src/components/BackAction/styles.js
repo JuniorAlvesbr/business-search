@@ -8,6 +8,8 @@ const BackActionStyle = styled(Link)`
     display: flex;
     align-items: center;
     text-decoration: none;
+    padding-left: 16px;
+    margin-bottom: 25px;
 
     & > ${IconArrow} {
         margin-right: 10px;
