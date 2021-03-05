@@ -6,6 +6,12 @@ export default {
     parameters: {
         layout: 'centered'
     }
-}
+};
 
-export const Default = () => <BackAction as="a" />
+const Template = (args) => <BackAction as="a" content={args.content} />;
+
+export const Default = Template.bind({});
+
+Default.args = {
+    content: "Voltar"
+}

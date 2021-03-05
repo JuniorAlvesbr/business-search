@@ -1,11 +1,11 @@
 import BackActionStyle from './styles';
 import IconArrow from '../IconArrow';
 
-function BackAction({ as }) {
+function BackAction({ as, content }) {
     return (
         <BackActionStyle as={as}>
             <IconArrow />
-            Voltar
+            {content}
         </BackActionStyle>
     )
 }
