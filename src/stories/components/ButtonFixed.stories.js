@@ -5,4 +5,10 @@ export default {
     component: 'ButtonFixed'
 };
 
-export const Default = () => <ButtonFixed>Insira o texto</ButtonFixed>;
+const Template = args => <ButtonFixed  {...args} />
+
+export const Default = Template.bind({});
+
+Default.args = {
+    children: 'Insira o texto'
+}
