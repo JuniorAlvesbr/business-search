@@ -12,7 +12,7 @@ export const Photo = styled.img.attrs({ src: photo, alt: 'Foto dos prestadores d
 `;
 
 export const Caption = styled.figcaption`
-    display: flex;
+    display: ${({ active }) => active ? 'flex' : 'none'};
     justify-content: center;
     align-items: center;
     background-color: #F25A70;

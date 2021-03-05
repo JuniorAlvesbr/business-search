@@ -1,18 +1,18 @@
 import { CardServiceStyle, Figure, Caption, Photo, Title } from './styles';
 import Stars from '../Stars';
 
-function CardService() {
+function CardService({ featured, featuredContent, stars, title }) {
     return (
         <CardServiceStyle>
             <Figure>
                 <Photo />
-                <Caption>Em Destaque</Caption>
+                <Caption active={featured}>{featuredContent}</Caption>
             </Figure>
 
-            <Stars amount="5" />
+            <Stars amount={stars} />
 
-            <Title>Cafeteria D’ Arte</Title>
-        </CardServiceStyle>
+            <Title>{title}</Title>
+        </CardServiceStyle >
     );
 };
 
