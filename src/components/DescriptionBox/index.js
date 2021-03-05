@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const DescriptionBox = styled.p`
+    box-sizing: border-box;
     color: #FFFCEE;
     font-size: 20px;
     line-height: 30px;
