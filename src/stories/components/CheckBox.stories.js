@@ -8,4 +8,11 @@ export default {
     }
 }
 
-export const Default = () => <CheckBox id="alimentacao" label="Alimentação" />
+const Template = args => <CheckBox {...args} />
+
+export const Default = Template.bind({});
+
+Default.args = {
+    id: "alimentacao",
+    label: "Alimentação"
+}
