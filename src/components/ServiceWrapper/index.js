@@ -1,16 +1,13 @@
-import styled from 'styled-components';
-import { CardServiceStyle } from '../CardService/styles';
+import ServiceWrapperStyle from "./styles";
+import CardService from "../CardService";
 
-const ServiceWrapper = styled.section`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: var(--gap-medium);
-    padding-bottom: calc(50px + var(--gap-medium));
-
-    & > ${CardServiceStyle}:not(:last-child) {
-        margin-bottom: var(--gap-medium);
-    }
-`;
+function ServiceWrapper({ list }) {
+    console.log(list)
+    return (
+        <ServiceWrapperStyle>
+            {list.map((item) => <CardService key={item.title} {...item} />)}
+        </ServiceWrapperStyle>
+    )
+}
 
 export default ServiceWrapper;
