@@ -8,4 +8,9 @@ export default {
     }
 }
 
-export const Default = () => <Title>Title</Title>
+const Template = args => <Title {...args} />
+
+export const Default = Template.bind({});
+Default.args = {
+    children: "Title"
+}
