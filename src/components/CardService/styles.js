@@ -31,6 +31,7 @@ export const Title = styled.h2`
     font-size: 20px;
     line-height: 30px;
     margin-left: var(--gap-smaller);
+    text-decoration: none;
 `;
 
 export const CardServiceStyle = styled.article`
@@ -41,7 +42,7 @@ export const CardServiceStyle = styled.article`
     overflow: hidden;
     padding-bottom: var(--gap-smaller);
 
-    & > ${StarStyle} {
+    & ${StarStyle} {
         margin: var(--gap-smaller) var(--gap-smaller) var(--gap-smaller) var(--gap-smaller);
     }
 

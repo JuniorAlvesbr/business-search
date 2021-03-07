@@ -1,13 +1,19 @@
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import HeaderMain from "../../components/HeaderMain";
 import BackAction from "../../components/BackAction";
 import WrapperBusiness from '../../components/WrapperBusiness';
 
 function Details() {
+    const history = useHistory();
+
+    function handleClick() {
+        history.goBack()
+    }
+
     return (
         <>
             <HeaderMain />
-            <BackAction as={Link} content="Voltar" />
+            <BackAction as="a" content="Voltar" onClick={handleClick} />
             <WrapperBusiness
                 stars="5"
                 title="Café do Zé"
