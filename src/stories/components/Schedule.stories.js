@@ -23,5 +23,6 @@ const Templates = args => <Schedule {...args} />
 
 export const Default = Templates.bind({})
 Default.args = {
+    states: "open",
     schedule
 }
