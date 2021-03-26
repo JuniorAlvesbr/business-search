@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Link } from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 import { CardServiceStyle, Figure, Caption, Photo, Title } from './styles';
 import Stars from '../Stars';
 
