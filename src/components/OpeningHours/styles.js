@@ -1,15 +1,16 @@
 import styled from 'styled-components'
 
-export const OpeningHoursStyle = styled.ol``
+export const OpeningHoursStyle = styled.ol`
+    padding: 16px;
+`
 
 export const Items = styled.li`
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color: #FFFCEE;
-    letter-spacing: 0.25px;
-    width: 290px;
-    border-bottom: 1px dashed #FFFCEE;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-template-rows: 100%;
+   color: #fffcee;
+   border-bottom: 1px dashed #fffcee;
+   padding-top: 5px;
 `
 
 export const Days = styled.p`
@@ -17,7 +18,7 @@ export const Days = styled.p`
 `
 
 export const Hours = styled.p`
-    width: 86px;
     font-size: 14px;
     line-height: 20px;
+    text-align: right;
 `
