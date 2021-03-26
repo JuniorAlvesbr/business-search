@@ -1,12 +1,14 @@
 import DescriptionBox from '../../components/DescriptionBox';
 
-export default {
+const Component = {
     title: 'Components/DescriptionBox',
     components: DescriptionBox,
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 const Template = args => <DescriptionBox {...args} />
 

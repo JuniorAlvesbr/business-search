@@ -1,11 +1,13 @@
 import LogoMain from '../../components/LogoMain';
 
-export default {
+const Component = {
     title: 'Components/LogoMain',
     component: LogoMain,
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 export const Default = () => <LogoMain />

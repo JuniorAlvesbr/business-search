@@ -1,12 +1,14 @@
 import WrapperBusiness from '../../components/WrapperBusiness';
 
-export default {
+const Component = {
     title: 'Components/WrapperBusiness',
     components: WrapperBusiness,
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 const Template = args => <WrapperBusiness {...args} />;
 

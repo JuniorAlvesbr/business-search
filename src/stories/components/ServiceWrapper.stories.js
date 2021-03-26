@@ -1,12 +1,14 @@
 import ServiceWrapper from '../../components/ServiceWrapper';
 
-export default {
+const Component = {
     title: 'Components/ServiceWrapper',
     components: 'ServiceWrapper',
     parameters: {
         layout: 'centered'
     }
 };
+
+export default Component;
 
 const servicesList = [
     {

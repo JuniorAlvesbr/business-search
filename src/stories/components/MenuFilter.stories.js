@@ -1,9 +1,11 @@
 import MenuFilter from '../../components/MenuFilter';
 
-export default {
+const Component = {
     title: 'Components/MenuFilter',
     components: MenuFilter
 };
+
+export default Component;
 
 const items = [
     { id: "alimentacao", label: "Alimentação" },

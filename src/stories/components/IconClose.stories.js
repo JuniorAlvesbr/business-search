@@ -1,11 +1,13 @@
 import IconClose from '../../components/IconClose';
 
-export default {
+const Component = {
     title: 'Components/IconClose',
     components: IconClose,
     parameters: {
         layout: "centered"
     }
 };
+
+export default Component;
 
 export const Default = () => <IconClose />

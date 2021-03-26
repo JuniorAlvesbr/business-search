@@ -1,12 +1,14 @@
 import CardService from '../../components/CardService/';
 
-export default {
+const Component = {
     title: 'Components/CardService',
     components: 'CardService',
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 const Template = args => <CardService {...args} />
 

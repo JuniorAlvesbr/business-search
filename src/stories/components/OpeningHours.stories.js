@@ -1,12 +1,14 @@
 import OpeningHours from '../../components/OpeningHours'
 
-export default {
+const Component = {
     title: "Components/OpeningHours",
     components: OpeningHours,
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 const schedule = [
     { key: "1", day: "Segunda", hours: "08:00 - 12:00 13:30 - 18:00" },

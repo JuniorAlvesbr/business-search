@@ -1,12 +1,14 @@
 import InfoOpenClose from '../../components/InfoOpenClose'
 
-export default {
+const Component = {
     title: 'Components/InfoOpenClose',
     component: InfoOpenClose,
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 const Templates = args => <InfoOpenClose {...args} />
 

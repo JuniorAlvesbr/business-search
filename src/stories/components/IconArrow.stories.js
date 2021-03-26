@@ -1,11 +1,13 @@
 import IconArrow from '../../components/IconArrow';
 
-export default {
+const Component = {
     title: 'Components/IconArrow',
     components: IconArrow,
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 export const Default = () => <IconArrow />

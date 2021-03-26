@@ -1,9 +1,11 @@
 import ServiceFilter from '../../components/ServiceFilter'
 
-export default {
+const Component = {
     title: 'Components/ServiceFilter',
     component: 'ServiceFilter'
 }
+
+export default Component;
 
 const items = [
     { id: "alimentacao", label: "Alimentação" },

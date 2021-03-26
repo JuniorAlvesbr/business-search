@@ -1,12 +1,14 @@
 import IconSearch from '../../components/IconSearch';
 
 
-export default {
+const Component = {
     title: 'Components/IconSearch',
     component: 'IconSearch',
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 export const Default = () => <IconSearch />

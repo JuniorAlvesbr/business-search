@@ -1,9 +1,11 @@
 import ButtonFixed from '../../components/ButtonFixed';
 
-export default {
+const Component = {
     title: 'Components/ButtonFixed',
     component: 'ButtonFixed'
 };
+
+export default Component;
 
 const Template = args => <ButtonFixed  {...args} />
 

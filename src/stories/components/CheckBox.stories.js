@@ -1,12 +1,14 @@
 import CheckBox from '../../components/CheckBox';
 
-export default {
+const Component = {
     title: 'Components/Checkbox',
     components: CheckBox,
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 const Template = args => <CheckBox {...args} />
 

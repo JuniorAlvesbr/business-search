@@ -1,6 +1,6 @@
 import BackAction from '../../components/BackAction';
 
-export default {
+const Component = {
     title: 'Components/BackAction',
     components: BackAction,
     parameters: {
@@ -8,10 +8,11 @@ export default {
     }
 };
 
+export default Component;
+
 const Template = (args) => <BackAction as="a" content={args.content} />;
 
 export const Default = Template.bind({});
-
 Default.args = {
     content: "Voltar"
 }

@@ -1,12 +1,14 @@
 import Title from '../../components/Title'
 
-export default {
+const Component = {
     title: 'Components/Title',
     components: Title,
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 const Template = args => <Title {...args} />
 

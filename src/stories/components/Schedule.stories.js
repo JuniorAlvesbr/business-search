@@ -1,12 +1,14 @@
 import Schedule from '../../components/Schedule'
 
-export default {
+const Component = {
     title: 'Components/Schedule',
     components: Schedule,
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 const schedule = [
     { key: "1", day: "Segunda", hours: "08:00 - 12:00, 13:30 - 18:00" },

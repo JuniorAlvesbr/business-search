@@ -1,12 +1,14 @@
 import Stars from '../../components/Stars';
 
-export default {
+const Component = {
     title: 'Components/Stars',
     components: 'Stars',
     parameters: {
         layout: 'centered'
     }
 }
+
+export default Component;
 
 const Template = args => <Stars {...args} />
 
